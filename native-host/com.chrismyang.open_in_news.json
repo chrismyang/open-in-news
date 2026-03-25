@@ -1,0 +1,7 @@
+{
+  "name": "com.chrismyang.open_in_news",
+  "description": "Opens URLs in Apple News via NSSharingService",
+  "path": "/Users/chris/projects/chrismyang/hammersmith/open-in-news/native-host/open_in_news",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://jpjaajdmnejebcepidfeddhhmjbgicnp/"]
+}

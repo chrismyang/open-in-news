@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Apple News",
+  "version": "1.0",
+  "description": "Detects Apple News+ publisher articles and offers to open them in Apple News",
+  "permissions": ["nativeMessaging", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["banner.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
